@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        title="Login Page"
+    body
+        if(user)
+            h1 Hi, #{user.displayName}
+        else
+            p Musisz być zalogowany
+            a(href="/index") Sign Up
